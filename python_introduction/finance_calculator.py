@@ -1,8 +1,9 @@
 # Finance Calculator - Monthly Savings and Annual Projection
 
 # User Input
-monthly_income = float(input("Enter your monthly income (kes): "))
-monthly_expenses = float(input("Enter your total monthly expenses (kes): "))
+monthly_income = float(input("Enter your monthly income: "))
+monthly_expenses = float(input("Enter your total monthly expenses: "))
+
 
 # Calculations
 monthly_savings = monthly_income - monthly_expenses
